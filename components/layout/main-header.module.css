@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1rem 10%;
+    height: 5rem;
+    background-color: #202020;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Fira', sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3498db;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: #3498db;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 1rem;
+  }
+  .navigation ul {
+    display: flex; /* Use flexbox for horizontal layout */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  @media (min-width: 768px) {
+    .logo {
+      font-size: 2.5rem;
+    }
+  
+    .navigation a {
+      font-size: 1.5rem;
+    }
+  }
+  
+  

@@ -1,0 +1,33 @@
+.container {
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    padding: 16px; 
+    max-width: 80%; /* Maximum width */
+    margin: 50px auto; /* Centering the container */
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.title {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #0070f3; 
+    margin-bottom: 12px; 
+    text-align: center;
+}
+
+.description {
+    font-size: 16px; 
+    color: #555; 
+    margin-bottom: 16px; 
+}
+
+.author, .genre, .price, .rating {
+    font-size: 16px; 
+    color: #666; 
+    margin: 4px 0; 
+}
+
+.value {
+    font-weight: bold; /* Bold text for values */
+    color: #0070f3; /* Highlight color for values */
+}
